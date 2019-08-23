@@ -58,12 +58,15 @@ group :test do
   gem 'chromedriver-helper'
 end
 
+gem "fog-aws"
 gem 'jquery-rails'
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
 gem 'simple_form'
 gem 'devise'
 gem 'carrierwave', '~> 2.0'
+gem "figaro"
+
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
